@@ -1,0 +1,18 @@
+
+<html>
+<head>
+    <title>API Monitor</title>
+</head>
+<body>
+
+    <h1>API Performance Monitor</h1>
+
+    <form method="POST">
+        <input type="text" name="url" placeholder="Enter API URL" required>
+        <button type="submit">Check API</button>
+    </form>
+
+    <h3>{{ result | safe }}</h3>
+
+</body>
+</html>
